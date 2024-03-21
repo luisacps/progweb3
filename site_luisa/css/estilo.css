@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    display: flex;
+    background-color: #AAE0F0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    min-height: 40px;
+}
+
+footer {
+    background-color: #AAE0F0;
+    text-align: center;
+    min-height: 50px;
+    margin-top: auto;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+body {
+    background-color: #DDF0FF;
+    height: 100vh;
+    flex-direction: column;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+p {
+    text-align: center;
+    line-height: 1.8em;
+}
+
+.fixar {
+    bottom: 0;
+}
+
+.menu {
+    display: flex;
+
+}
+.menu li {
+    margin-left: 20px;
+    list-style: none;
+    font-size: 1.2rem;
+
+}
+.menu li a {
+    padding: 5px;
+    text-decoration: none;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: auto;
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.img_sobre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    max-width: 400px;
+}
+
+.txt_sobre {
+    width: 50%;
+    word-wrap: break-word;
+    margin-top: 0.8em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ctt {
+    width: 50%;
+    word-wrap: break-word;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+}
+
+form {
+    max-width: 500px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin: 10px auto;
+    background: #AAE0F0;
+}
+
+fieldset {
+    margin-bottom: 30px;
+    border: none;
+}
+  
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+label.naoquebralinha {
+    display: inline;
+    font-weight: 300;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  width: 100%;
+  color: #DDF0FF;
+  background-color: #e8eeef;
+  margin-bottom: 30px;
+  box-shadow: 0 1px 0;
+}
+
+button {
+    padding: 18px 39px 18px 39px;
+    color: #fff;
+    background-color: #51cbf0;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #51cbf0;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+  }

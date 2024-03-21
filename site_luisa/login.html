@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Paraíso</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <a href="#"><img src="img/logo.png" alt="Hotel Paraíso"></a>
+
+        <nav class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="avaliacoes.html">Avaliações</a></li>
+        </nav>
+    </header>
+
+    <h1>Faça login no site</h1>
+    <p>Esse login permite a realização de reservas</p>
+
+    <section>
+        <div>
+            <form action="login.html" method="post">
+                <fieldset>
+                    <label for="name">Nome: </label>
+                    <input type="text" id="name" name="name">
+                        
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email">
+                        
+                    <label for="pwd">Senha: </label>
+                    <input type="password" id="pwd" name="pwd">
+                        
+                    <label for="pwd2">Confirmar senha: </label>
+                    <input type="password" id="pwd2" name="pwd2">
+                    <label for="">Idade: </label>
+                    <input type="radio" id="age" name="age" value="acima17">
+                    <label for="age" class="naoquebralinha">Acima de 18</label>
+                    <input type="radio" id="age2" name="age" value="abaixo17">
+                    <label for="age2" class="naoquebralinha">Abaixo de 18</label>
+                </fieldset>
+                <button type="submit" class="naoquebralinha">Enviar dados</button>
+            </form>
+        </div>
+    </section>
+    <footer class="fixar">
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>  
+</body>
+</html>
